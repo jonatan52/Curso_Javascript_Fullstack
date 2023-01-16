@@ -1,0 +1,40 @@
+/* Selectores en css */
+/* Selector universal*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Selector por atributo id */
+#logo{
+    box-shadow: 2px  2px 10px grey ;
+
+}
+
+/* Selector por  class */
+.destacada{
+    color: violet;
+    
+}
+
+/* Selector por  class */
+ul{
+    margin: 20px;
+    padding: 20px;
+}
+
+/* Selector por  atributo */
+[type="text"]{
+    border: 1px solid orange;
+}
+
+/* Selector por  pseudoclase */
+.destacada:hover{
+    color: white;
+    background-color: violet;
+}
+
+/* Selector por  pseudoelemento */
+p::first-letter{
+    font-size: 30PX;
+}
