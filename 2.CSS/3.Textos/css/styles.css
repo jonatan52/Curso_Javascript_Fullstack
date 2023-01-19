@@ -1,11 +1,49 @@
-body{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+/*Implementacion de fuente interna*/
+
+@font-face{
+    font-family: 'brushed';
+    font-style: nomrmal;
+    font-weight: 400;
+    src:url('../fonts/Mighty\ Brush\ Demo.ttf')
 }
+
+/*Implementacion de fuente externa*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@400;700&display=swap');
+
+body{
+    /* font-family: Georgia, 'Times New Roman', Times, serif;*/
+    font-family: 'Roboto', sans-serif;
+    color: #616161;
+
+
+} 
 
 h1{
     font-size: 32px;
+    font-family: 'brushed', serif;
 }
 
 p{
     font-size: 22px;
+    line-height: 1.5;
+}
+
+.cita{
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+    padding: 40px;
+    color: #dc143c;
+}
+
+/* Sombreado de textos */
+.sombreado{
+    text-shadow: 2px -2px 4px grey;
+    font-size: 36px;
+}
+
+/* Subrayado de textos*/
+.subrayado{
+   
+    text-decoration: #dc143c underline wavy;
 }
