@@ -1,0 +1,31 @@
+.borde-naranja{
+    border: 1px solid orange;
+}
+
+.caja-1{
+    width: 500px;
+    height: 250px;
+    background-color: orange;
+
+}
+
+.caja-2{
+    width: 500px;
+   background-color: plum;  
+}
+
+.caja-3{
+    width: 50%; /*El 50% del ancho de su elemento padre(div)*/
+    height: 100px;
+    background-color: saddlebrown;  
+}
+
+.cita{
+    width: 80%;
+    height:80px;
+    background-color: gainsboro;
+    margin: 0 auto;
+    font-size: 28px;
+    /* overflow: hidden; oculta el contenido desbordado */
+    overflow-y: auto; /* Se mostrara el scrool solo cuando sea necesario*/
+}
