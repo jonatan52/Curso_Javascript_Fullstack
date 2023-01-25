@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lobster&display=swap');
+
+.hero{
+    width: 100vw;
+    height: 100vh;
+    /* prefijos de proveedores
+       -webkit- chrome, safari y todos IOS
+       -moz- Mozilla firfox
+       -o- Opera
+       -ms- IExplorer y  Edge
+     */
+
+    background: -webkit-linear-gradient(left, #e54eab 70%, #e00d2c);
+    background: -moz-linear-gradient(left, #e54eab 70%, #e00d2c);
+    background: -o-linear-gradient(left, #e54eab 70%, #e00d2c);
+    background: -ms-linear-gradient(left, #e54eab 70%, #e00d2c);
+}
+
+.hero p{
+    padding-top: 200px;
+    text-align: center;
+    color: white;
+    font-size: 100px;
+    font-family: 'Anton', sans-serif;
+
+}

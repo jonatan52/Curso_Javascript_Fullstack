@@ -29,3 +29,15 @@
     /* overflow: hidden; oculta el contenido desbordado */
     overflow-y: auto; /* Se mostrara el scrool solo cuando sea necesario*/
 }
+
+.responsive{
+    max-width: 100%;
+}
+
+.card{
+    width: 33.33333%;
+    min-width: 220px;
+    height: 260px;
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 5px;
+}
