@@ -1,0 +1,13 @@
+ul{
+    list-style: none;
+    /* list-style-position: inside; */
+}
+
+li{
+    font-size: 28px;
+}
+
+/*Pseudoelemnto before (Renderizar)*/
+li::before{
+    content: "👍";
+}
