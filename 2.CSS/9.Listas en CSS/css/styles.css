@@ -11,3 +11,33 @@ li{
 li::before{
     content: "👍";
 }
+
+.darth-vader li::before{
+    content: url(../img/icons8-stormtrooper-50.png) ;
+    position: relative;
+    top: 15px;
+    right: 10px;
+}
+
+/* pseudo para elemntos repetitivos */
+li:first-child{
+    color: brown;
+}
+
+li:last-child{
+    color: rgb(165, 42, 144);
+}
+
+li:nth-child(2){
+    color: rgb(42, 165, 138);
+}
+
+/*
+li:nth-child(odd){ //color a los elemntos impares
+    color: rgb(42, 165, 138);
+}
+
+li:nth-child(even){color a los elemntos pares
+    color: rgb(42, 165, 138);
+}
+*/
