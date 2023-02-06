@@ -1,0 +1,4 @@
+/*Combinacion de selectores par al misma regla (,)*/
+h1,h2{
+    color: violet;
+}
