@@ -2,3 +2,24 @@
 h1,h2{
     color: violet;
 }
+
+/*Combinacion Selectores unidos*/
+
+div.texto{
+    color: green;
+}
+
+/*Combinacion de selectores descendientes ()*/
+.star-war li{
+    color: crimson;
+}
+
+/*Combinacion de selectores descendientes directos (>)*/
+.contenedor > h1{
+    color: brown;
+}
+
+/*Combinacion de selectores hermanos en general (~)*/
+.primogenito ~ .hermano-normal{
+    color: blue;
+}

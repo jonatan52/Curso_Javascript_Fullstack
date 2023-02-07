@@ -1,0 +1,18 @@
+p, span{
+
+    border: 1px solid rgb(37, 175, 56);
+
+}
+
+/*propiedad display para modificar  el comportamiento de los elementos*/
+.en-linea{
+    display: inline;
+}
+
+.en-bloque{
+    display: block;
+}
+
+.enlinea-y-bloque{
+    display: inline-block;/*en linea mientras quepan*/
+}
