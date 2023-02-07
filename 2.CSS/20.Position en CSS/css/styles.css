@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* position relativo(a donde deberia estar el elemnto) */
+
+.caja-1{
+    background-color: green;
+    width: 300px;
+    height: 200px;
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+
+.caja-2{
+    background-color: violet;
+    width: 150px;
+    height: 80px;
+    position: relative;
+    top: -20px;
+    left: -20px;
+   
+}
+
+/*Position fixed(fijo al dispositivo)*/
+
+.caja-3{
+    background-color: violet;
+    width: 200px;
+    height: 50px;
+    position: fixed;
+    bottom: 40px;
+    right: 60px;
+}
+
+/*Position absolut(fijo pero la referencia al contenedor padre*/
+/*contenedor padre debe de estar posicionado*/
+.caja-4{ 
+    width: 400px;
+    height: 200px;
+    background-color: grey;
+    position: relative;
+    top: 40px;
+    left: 100px;
+
+}
+
+.caja-5{
+    width: 30px;
+    height: 30px;
+    background-color: #db1919;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+/*position stcky(mantiene su posicion hasta que llegue a los valores)*/
+h1{
+    text-align: center;
+    font-size: 32px;
+}
+
+.titulo-sticky{
+    background-color: tomato;
+    color: white;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.titulo-sticky-2{
+    background-color: grey;
+    color: white;
+    padding: 10px 20px;
+    position: sticky;
+    top: 57PX;
+    left: 0;
+}
+
+.titulo-sticky-3{
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    position: sticky;
+    top: 114PX;
+    left: 0;
+}

@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor{
+    border: 4px solid orange;
+    height: 100vh;
+    display: flex; /*flex provoca que todos los elemntos hijos pasen hacer en linea*/
+    justify-content:center;/*Alinea en el eje primario(eje x --> horizontal)*/
+    /*Valores para justify-conten
+        - flex-star(por defecto)al inicio
+        - flex-star (al inicio)
+        - center (centra)
+        - flex-end (al final)
+        - space-between (reparte los espacios a los extremos)
+        - space-around (reparte los espacios entre los elementos)       
+    */
+
+    align-items:center;/*Alinea en el eje segundario(eje y | vertical )*/
+    /*Valores para align-items
+        - flex-star(por defecto)al inicio
+        - center (centra)
+        - flex-star (al inicio)
+        - flex-end (al final)
+        - stretch(por defecto)
+             
+    */
+}
+
+.caja{
+    width: 150px;
+    height: 150px;
+}
+
+.azul{background-color: cornflowerblue;}
+.verde{background-color: darkcyan;}
+.roja{background-color: darkred;}
+.morada{background-color: violet;}
