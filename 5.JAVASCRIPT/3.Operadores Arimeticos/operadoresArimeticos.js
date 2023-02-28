@@ -27,3 +27,13 @@ let d = 2;
 console.log(++d);  // Preincremento
 console.log(d)
 
+// Valor NaN (not a number)
+let z = 5;
+a = "hello";
+resultado = a * z; 
+console.log(resultado)// NaN
+
+// Resto %
+
+let ejemplorResto = 13 % 3;
+console.log(`El resto de la division es = ${ejemplorResto}`)
